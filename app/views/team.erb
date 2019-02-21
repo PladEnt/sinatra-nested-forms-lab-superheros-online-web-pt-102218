@@ -2,7 +2,7 @@
 <h2>Team Motto: <%= @motto %></h2>
 
 <% @members.each.with_index do |hero, index| %>
-  <% if @heros_name != ""%>
+  <% if @heros_name != " "%>
     <h2>Hero Name: <%= @heros_name[index] %></h2>
     <p>
       Hero power: <%= @heros_power[index] %>
